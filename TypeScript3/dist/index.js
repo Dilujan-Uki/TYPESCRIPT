@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const circle_1 = require("./Day3/circle");
-const rectangle_1 = require("./Day3/rectangle");
+const circle_1 = require("./Day3-Polymorphism/circle");
+const rectangle_1 = require("./Day3-Polymorphism/rectangle");
 console.log("Circle Example");
 const cir = new circle_1.Circle(5, 'blue', true);
 cir.printCircle();

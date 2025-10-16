@@ -1,6 +1,6 @@
-import { Circle } from "./Day1/circle";
-import { Student } from "./Day1/student";
 
+import { Student } from "./Day1/student";
+import { Circle } from "./Day1/circle";
 console.log("Hello TypeScript!");
 
 function main(){

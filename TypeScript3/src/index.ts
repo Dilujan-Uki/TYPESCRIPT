@@ -1,5 +1,5 @@
-import { Circle } from "./Day3/circle";
-import { Rectangle } from "./Day3/rectangle";
+import { Circle } from "./Day3-Polymorphism/circle";
+import { Rectangle } from "./Day3-Polymorphism/rectangle";
 console.log("Circle Example");
 const cir = new Circle(5, 'blue', true);
 cir.printCircle();
@@ -11,12 +11,5 @@ const rec = new Rectangle(4, 6, "red", false);
 console.log("Area:", rec.getArea());
 console.log("Perimeter:", rec.getPerimeter());
 console.log(rec.toString());
-
-
-
-
-
-
-
 
 
