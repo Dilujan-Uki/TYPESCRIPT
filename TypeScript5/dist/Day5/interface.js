@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Rectangle = exports.Circle = void 0;
+exports.printArea = printArea;
 class Circle {
     radius;
     constructor(radius) {
@@ -24,6 +25,6 @@ class Rectangle {
 }
 exports.Rectangle = Rectangle;
 function printArea(shape) {
-    console.log("Area ", shape.area());
+    console.log("Area: " + shape.area());
 }
 //# sourceMappingURL=interface.js.map

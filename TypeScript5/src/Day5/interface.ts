@@ -19,7 +19,7 @@ export class Circle implements Shape{
 }
 
 
-function printArea(shape:Shape):void{
-    console.log("Area ",shape.area());
+export function printArea(shape:Shape):void{
+    console.log("Area: "+shape.area());
 }
 

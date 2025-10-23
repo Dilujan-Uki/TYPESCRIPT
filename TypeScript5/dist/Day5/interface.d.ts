@@ -12,4 +12,5 @@ export declare class Rectangle implements Shape {
     constructor(width: number, height: number);
     area(): number;
 }
+export declare function printArea(shape: Shape): void;
 //# sourceMappingURL=interface.d.ts.map
